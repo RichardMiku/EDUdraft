@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>edudraft</title>
+  <style>
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+  </style>
+</head>
+<body>
+<header id="title-block-header">
+<h1 class="title">edudraft</h1>
+</header>
+<p>公式 ( T = T_0 + tY )
+描述了一个线性税收函数，其中税收与总收入（或GDP）之间的关系。该公式通常在宏观经济学模型中使用。</p>
+<h3 id="公式解释">公式解释</h3>
+<ul>
+<li><strong>( T
+)</strong>：总税收，表示政府从经济体中收取的总税款。</li>
+<li><strong>( T_0
+)</strong>：固定税收成分，即无论收入水平如何，政府都收取的固定税额。</li>
+<li><strong>( t
+)</strong>：边际税率，表示每增加一单位收入，所增加的税收比例。</li>
+<li><strong>( Y
+)</strong>：总收入或GDP，表示经济体内在一定时期内的总产出。</li>
+</ul>
+<h3 id="工作原理">工作原理</h3>
+<ul>
+<li><strong>固定税收成分（( T_0
+)）</strong>：这是一个固定数额的税收，不受收入水平的变化影响。例如，无论个人或企业的收入是多少，都必须缴纳的固定税额。</li>
+<li><strong>边际税率（( t
+)）</strong>：每增加一单位收入，政府将收取的税额。例如，如果边际税率 ( t
+) 是20%，那么每增加¥100的收入，将增加¥20的税收。</li>
+<li><strong>总收入（( Y
+)）</strong>：经济体的总收入或GDP。随着总收入的增加，总税收也会增加，具体增加量取决于边际税率。</li>
+</ul>
+<h3 id="举例说明">举例说明</h3>
+<p>假设固定税收成分（( T_0 )）为¥1000，边际税率（( t
+)）为0.2（即20%），总收入（( Y )）为¥5000。</p>
+<p>使用公式计算总税收： [ T = T_0 + tY ] [ T = 1000 + 0.2 ] [ T = 1000 +
+1000 ] [ T = 2000 ]</p>
+<p>所以，总税收为¥2000。</p>
+<p>这个税收函数模型有助于理解政府税收政策与经济活动之间的关系，分析税收如何影响总需求和经济增长。</p>
+<p>希望这个解释能对你有所帮助！如果有更多问题或需要进一步的例子，请告诉我。</p>
+</body>
+</html>
